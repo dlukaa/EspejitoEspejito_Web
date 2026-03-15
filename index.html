@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espejito Espejito | Centro de Belleza y Maquillaje en Valladolid</title>
+    <meta name="description"
+        content="Centro de belleza y maquillaje profesional en Valladolid. Especialistas en novias, tratamientos faciales y corporales. Visítanos en Calle Guadamacileros, 5.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Clicker+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text" style="line-height: 1; text-align: center; display: inline-block;">
+                    <span style="color: var(--secondary-color); font-size: 2.8rem; text-transform: lowercase; font-family: 'Clicker Script', cursive; font-weight: 400; display: block; margin-bottom: -10px;">espejito</span>
+                    <span style="color: var(--accent-color); font-size: 0.65rem; letter-spacing: 4px; font-family: var(--font-body); font-weight: 500; display: block; margin: 0;">BEAUTY & MAKE UP</span>
+                    <span style="color: var(--primary-color); font-size: 2.8rem; text-transform: lowercase; font-family: 'Clicker Script', cursive; font-weight: 400; display: block; margin-top: -10px;">espejito</span>
+                </span>
+            </a>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#novias">Novias</a>
+                <a href="#glittervan">Glitter Van</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#novias">Novias</a>
+        <a href="#glittervan">Glitter Van</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <h2 class="subtitle">Especialistas en resaltar tu belleza</h2>
+            <h1 class="title">Tu espacio único para deslumbrar</h1>
+            <p class="description">Centro de belleza y maquillaje profesional en el corazón de Valladolid. Tratamientos
+                exclusivos para ti.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Reserva tu cita</a>
+                <a href="#servicios" class="btn btn-outline">Descubre más</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h3 class="section-subtitle">Nuestra Oferta</h3>
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <div class="divider"></div>
+                <p class="mt-4"
+                    style="color: var(--text-light); max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Ofrecemos una amplia gama de tratamientos personalizados. Reserva tu cita a través de nuestra
+                    aplicación para conocer todos los detalles.
+                </p>
+            </div>
+
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+
+                <!-- Category 1: Facial & Piel -->
+                <div class="service-card fade-up" style="transition-delay: 100ms; text-align: left;">
+                    <div class="service-icon" style="text-align: center; margin-bottom: 1.5rem;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title"
+                        style="text-align: center; border-bottom: 1px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px;">
+                        Facial & Piel</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem; line-height: 1.8;">
+                        <li>• Higiene Facial Sensorial</li>
+                        <li>• Radiofrecuencia Facial</li>
+                        <li>• Tratamiento Hydravital / Fhos</li>
+                        <li>• Microneedling (Dermapen)</li>
+                        <li>• Fotodepilación Facial</li>
+                    </ul>
+                </div>
+
+                <!-- Category 2: Mirada Perfecta -->
+                <div class="service-card fade-up" style="transition-delay: 200ms; text-align: left;">
+                    <div class="service-icon" style="text-align: center; margin-bottom: 1.5rem;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="service-title"
+                        style="text-align: center; border-bottom: 1px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px;">
+                        Mirada Perfecta</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem; line-height: 1.8;">
+                        <li>• Diseño y Depilación de Cejas</li>
+                        <li>• Laminado de Cejas</li>
+                        <li>• Lifting y Tinte de Pestañas</li>
+                        <li>• Micropigmentación (Pelo a pelo / Sombreado)</li>
+                        <li>• Mantenimiento Microblading</li>
+                    </ul>
+                </div>
+
+                <!-- Category 3: Corporal & Bienestar -->
+                <div class="service-card fade-up" style="transition-delay: 300ms; text-align: left;">
+                    <div class="service-icon" style="text-align: center; margin-bottom: 1.5rem;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                            <line x1="16" y1="8" x2="2" y2="22"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title"
+                        style="text-align: center; border-bottom: 1px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px;">
+                        Corporal & Bienestar</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem; line-height: 1.8;">
+                        <li>• Masaje Relajante Antiestrés</li>
+                        <li>• Drenaje Linfático</li>
+                        <li>• Maderoterapia Corporal</li>
+                        <li>• Presoterapia</li>
+                        <li>• Fotodepilación Corporal</li>
+                    </ul>
+                </div>
+
+                <!-- Category 4: Manicura & Pedicura -->
+                <div class="service-card fade-up" style="transition-delay: 400ms; text-align: left;">
+                    <div class="service-icon" style="text-align: center; margin-bottom: 1.5rem;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"></path>
+                            <path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"></path>
+                            <path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"></path>
+                            <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title"
+                        style="text-align: center; border-bottom: 1px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px;">
+                        Manicura & Pedicura</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem; line-height: 1.8;">
+                        <li>• Esmaltado Semipermanente</li>
+                        <li>• Manicura / Pedicura Express</li>
+                        <li>• Nivelación / Capping</li>
+                        <li>• Pedicura SPA</li>
+                        <li>• Tratamiento de durezas</li>
+                    </ul>
+                </div>
+
+                <!-- Category 5: Maquillaje -->
+                <div class="service-card fade-up" style="transition-delay: 500ms; text-align: left;">
+                    <div class="service-icon" style="text-align: center; margin-bottom: 1.5rem;">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="service-title"
+                        style="text-align: center; border-bottom: 1px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px;">
+                        Maquillaje</h3>
+                    <ul style="color: var(--text-light); font-size: 0.95rem; line-height: 1.8;">
+                        <li>• Maquillaje Social</li>
+                        <li>• Maquillaje de Novia</li>
+                        <li>• Curso de Automaquillaje</li>
+                        <li>• Servicio a Domicilio disponible</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="fade-up" style="text-align: center; margin-top: 3rem; transition-delay: 600ms;">
+                <a href="https://appespejito.viday.es/inicio" target="_blank" class="btn btn-primary">Ver todos los
+                    precios y reservar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridal Section -->
+    <section id="novias" class="bridal">
+        <div class="bridal-container">
+            <div class="bridal-content fade-right">
+                <h3 class="section-subtitle">Especial Novias</h3>
+                <h2 class="section-title">Tu día más especial</h2>
+                <div class="divider"></div>
+                <p>En Espejito Espejito sabemos lo importante que es el día de tu boda. Te ofrecemos un servicio
+                    integral de asesoría y maquillaje nupcial para que luzcas perfecta y te sientas tú misma.</p>
+                <ul class="bridal-features">
+                    <li>Prueba de maquillaje personalizada</li>
+                    <li>Asesoramiento de cuidado de la piel previo a la boda</li>
+                    <li>Maquillaje para madrinas e invitadas</li>
+                    <li>Durabilidad y productos de alta cosmética garantizados</li>
+                </ul>
+                <a href="#contacto" class="btn btn-primary mt-4">Consulta nuestros packs</a>
+            </div>
+            <div class="bridal-image-wrapper fade-left">
+                <div class="bridal-img-placeholder" id="bridalImage">
+                    <!-- Image will be set via CSS or JS later -->
+                </div>
+                <div class="accent-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Glitter Van Section -->
+    <section id="glittervan" class="bridal" style="background-color: var(--dark-bg);">
+        <div class="bridal-container">
+            <div class="bridal-image-wrapper fade-right">
+                <div class="bridal-img-placeholder" id="glitterImage"
+                    style="background-image: url('glitter_van.png'); background-size: cover; background-position: center;">
+                </div>
+                <!-- Box on the left for variation -->
+                <div class="accent-box"
+                    style="left: -20px; right: auto; top: -20px; bottom: auto; transform: rotate(-5deg);"></div>
+            </div>
+            <div class="bridal-content fade-left">
+                <h3 class="section-subtitle">Tus eventos brillan más</h3>
+                <h2 class="section-title">Glitter Van Style</h2>
+                <div class="divider"></div>
+                <p>¿Quieres darle un toque inolvidable y mágico a tu boda, fiesta o evento? Nuestro <strong>Glitter
+                        Van</strong> es la sensación del momento. Llevamos nuestro stand brillante lleno de fantasía
+                    para que tus invitados deslumbren en la pista de baile.</p>
+                <ul class="bridal-features">
+                    <li>Makeup brillante y divertido para todos</li>
+                    <li>Gemas faciales y purpurina de alta calidad</li>
+                    <li>Montaje estético y cuidado al detalle</li>
+                    <li>Ideal para bodas, cumpleaños y festivales</li>
+                </ul>
+                <div style="margin-top: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-color)"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <a href="https://www.instagram.com/espejitonboard/" target="_blank"
+                        style="font-weight: 500; font-size: 1.1rem; color: var(--white); transition: var(--transition);"
+                        onmouseover="this.style.color='var(--primary-color)'"
+                        onmouseout="this.style.color='var(--white)'">Sigue nuestra furgo: @espejitonboard</a>
+                </div>
+                <a href="#contacto" class="btn btn-primary mt-4">Pide presupuesto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h3 class="section-subtitle">Te esperamos</h3>
+                <h2 class="section-title">Encuéntranos</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-right">
+                    <div class="info-item">
+                        <div class="info-icon" style="color: var(--primary-color);">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Calle+Guadamacileros+5+Valladolid"
+                                    target="_blank"
+                                    style="text-decoration: underline; text-decoration-color: transparent; transition: var(--transition);"
+                                    onmouseover="this.style.textDecorationColor='var(--primary-color)'"
+                                    onmouseout="this.style.textDecorationColor='transparent'">
+                                    Calle Guadamacileros, 5<br>47003 Valladolid, España
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Map Embed inside contact info between address and phone -->
+                    <div
+                        style="margin: 1.5rem 0 2.5rem 0; border-radius: 8px; overflow: hidden; height: 180px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                        <iframe
+                            src="https://maps.google.com/maps?q=Espejito+Espejito+Beauty+%26+Make+Up+Valladolid+Calle+Guadamacileros+5&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                            width="100%" height="100%" style="border:0; display: block;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon" style="color: var(--primary-color);">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:+34983080105" style="transition: color 0.3s;"
+                                    onmouseover="this.style.color='var(--primary-color)'"
+                                    onmouseout="this.style.color='#cccccc'">983 08 01 05</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon" style="color: var(--primary-color);">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Redes Sociales</h4>
+                            <p>
+                                <a href="https://www.instagram.com/espejito_espejitova/" target="_blank"
+                                    style="display: flex; align-items: center; gap: 5px; transition: color 0.3s;"
+                                    onmouseover="this.style.color='var(--primary-color)'"
+                                    onmouseout="this.style.color='#cccccc'">
+                                    @espejito_espejitova
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container fade-left">
+                    <form id="whatsappForm" class="contact-form">
+                        <h3
+                            style="font-family: var(--font-heading); text-align: center; color: var(--dark-bg); margin-bottom: 2rem;">
+                            Envíanos un mensaje</h3>
+                        <div class="form-group">
+                            <input type="text" id="waName" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="waEmail" placeholder="Tu Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="waPhone" placeholder="Tu Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="waMessage" rows="4" placeholder="¿En qué podemos ayudarte?"
+                                required></textarea>
+                        </div>
+                        <button type="button" id="sendWhatsApp" class="btn btn-primary w-100">ENVIAR MENSAJE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-text" style="line-height: 1; text-align: center; display: inline-block;">
+                    <span style="color: var(--secondary-color); font-size: 3.5rem; text-transform: lowercase; font-family: 'Clicker Script', cursive; font-weight: 400; display: block; margin-bottom: -15px;">espejito</span>
+                    <span style="color: var(--accent-color); font-size: 0.8rem; letter-spacing: 5px; font-family: var(--font-body); font-weight: 500; display: block; margin: 0;">BEAUTY & MAKE UP</span>
+                    <span style="color: var(--primary-color); font-size: 3.5rem; text-transform: lowercase; font-family: 'Clicker Script', cursive; font-weight: 400; display: block; margin-top: -15px;">espejito</span>
+                </span>
+                <p style="margin-top: 1.5rem;">Tu centro de belleza de confianza en Valladolid. Porque tú eres la más hermosa.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#novias">Novias</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Espejito Espejito. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
