@@ -1,0 +1,2 @@
+hero_bg.png --> pag inicio
+bridal.png --> pag novia
